@@ -1,4 +1,4 @@
-# Procedural Voxel World and A* Road Generator
+# Procedural World and A* Road Generator
 
 This is a procedurally generated world composed of voxels. Two points can be selected in the world as start and end points to a road. Using an A* path finding algorithm the shortest path between the two points will be calculated and a road will be generated. The size and type of terrain can be modified at run-time.
 
@@ -6,7 +6,7 @@ A video providing an overview of the project can be found [here](https://youtu.b
 
 ## Getting Started
 
-Download the project and Unity3D. Navigate to `Procedural Voxel World and A-star Road Generation > Assets > Scenes` and open one of the scenes to launch Unity3D.
+Download the project and Unity3D. Navigate to `Voxel World and A-star Road Generator > Assets > Scenes` and open one of the scenes to launch Unity3D.
 
 ### Prerequisites
 
@@ -48,7 +48,6 @@ To do so:
 * [Shader Forge](http://www.acegikmo.com/shaderforge/) by Joachim Holmer
 * [Violent Days Skybox](https://forums.epicgames.com/unreal-tournament-2003-2004/ut2004-level-editingmodeling-skinning/108243-my-skies-and-and-cliff-textures-large-images) by Hipshot
 
-
 ## Compatibility
 
 Tested with Unity 2018.2.13f1 and Visual Studio Community 2017 Version 15.8.7
@@ -57,7 +56,6 @@ Tested with Unity 2018.2.13f1 and Visual Studio Community 2017 Version 15.8.7
 
 * **Tyler Loewen** - [GitHub](https://github.com/TylerLoewen)
 * **Matthew Kania** - [Blog](https://rimplydev.com/), [Twitter](https://twitter.com/rimplydev), [GitHub](https://github.com/MattKania)
-
 
 ## License
 

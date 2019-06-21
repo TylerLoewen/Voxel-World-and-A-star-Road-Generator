@@ -16,11 +16,11 @@ Unity3D is needed to modify and recompile the project. Unity can be downloaded [
 
 In reference to the UI, the type of terrain can be selected from under the `Terrain Type`
 dropdown menu. The world size in chunks can be selected as well as the option to render using
-the greedy meshing algorithms discussed in the paper. The `Generate World` button will begin
+the greedy meshing algorithms discussed in the report. The `Generate World` button will begin
 the generation of the world. Depending on the world size and greedy meshing setting, world
 generation may take up to a minute.
 
-Once the world is generated a start and end location for the road to be generated can be set by
+Once the world is generated, a start and end location for the road to be generated can be set by
 following the instructions in the textbox on the bottom right of the screen. The cost sliders can
 be used to adjust the behaviour of the A* algorithm. Note that depending on the distance
 between the start and end location, as well as the costs of ramps/bridges/tunnels, the algorithm
@@ -29,7 +29,7 @@ a long computation time, set their values to around 10-30 and make the road rela
 
 ## Deployment
 
-The project can be built for either `Windows` or `Mac OS X`
+The project can be built for either `Windows` or `MacOS`
 
 To do so:
 
@@ -37,7 +37,7 @@ To do so:
 2. Select `File > Build Settings...` from the top menu in Unity
 3. Make sure `scene 1` is selected in the `Scenes In Build` box, if it is not then add the desired scene
 4. Select the `PC, Mac & Linux Standalone` platform
-5. Choose the desired Target Platform from the dropdown menu, either `Windows` or `Mac OS X`
+5. Choose the desired Target Platform from the dropdown menu, either `Windows` or `MacOS`
 6. Select `Build` or `Build And Run` to compile an executable
 
 ## Built With
